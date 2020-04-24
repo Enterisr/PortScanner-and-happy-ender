@@ -1,0 +1,562 @@
+[
+	{
+		"Port": "1",
+		"Name": "tcpmux",
+		"Comment": "TCP port service multiplexer"
+	},
+	{
+		"Port": "5",
+		"Name": "rje",
+		"Comment": "Remote Job Entry"
+	},
+	{
+		"Port": "7",
+		"Name": "echo",
+		"Comment": "Echo service"
+	},
+	{
+		"Port": "9",
+		"Name": "discard",
+		"Comment": "Null service for connection testing"
+	},
+	{
+		"Port": "11",
+		"Name": "systat",
+		"Comment": "System Status service for listing connected ports"
+	},
+	{
+		"Port": "13",
+		"Name": "daytime",
+		"Comment": "Sends date and time to requesting host"
+	},
+	{
+		"Port": "17",
+		"Name": "qotd",
+		"Comment": "Sends quote of the day to connected host"
+	},
+	{
+		"Port": "18",
+		"Name": "msp",
+		"Comment": "Message Send Protocol"
+	},
+	{
+		"Port": "19",
+		"Name": "chargen",
+		"Comment": "Character Generation service; sends endless stream of characters"
+	},
+	{
+		"Port": "20",
+		"Name": "ftp-data",
+		"Comment": "FTP data port"
+	},
+	{
+		"Port": "21",
+		"Name": "ftp",
+		"Comment": "File Transfer Protocol (FTP) port; sometimes used by File \t    Service Protocol (FSP)"
+	},
+	{
+		"Port": "22",
+		"Name": "ssh",
+		"Comment": "Secure Shell (SSH) service"
+	},
+	{
+		"Port": "23",
+		"Name": "telnet",
+		"Comment": "The Telnet service"
+	},
+	{
+		"Port": "25",
+		"Name": "smtp",
+		"Comment": "Simple Mail Transfer Protocol (SMTP)"
+	},
+	{
+		"Port": "37",
+		"Name": "time",
+		"Comment": "Time Protocol"
+	},
+	{
+		"Port": "39",
+		"Name": "rlp",
+		"Comment": "Resource Location Protocol"
+	},
+	{
+		"Port": "42",
+		"Name": "nameserver",
+		"Comment": "Internet Name Service"
+	},
+	{
+		"Port": "43",
+		"Name": "nicname",
+		"Comment": "WHOIS directory service"
+	},
+	{
+		"Port": "49",
+		"Name": "tacacs",
+		"Comment": "Terminal Access Controller Access Control System for TCP/IP \t    based authentication and access"
+	},
+	{
+		"Port": "50",
+		"Name": "re-mail-ck",
+		"Comment": "Remote Mail Checking Protocol"
+	},
+	{
+		"Port": "53",
+		"Name": "domain",
+		"Comment": "domain name services (such as BIND)"
+	},
+	{
+		"Port": "63",
+		"Name": "whois++",
+		"Comment": "WHOIS++, extended WHOIS services"
+	},
+	{
+		"Port": "67",
+		"Name": "bootps",
+		"Comment": "Bootstrap Protocol (BOOTP) services; also used by Dynamic \t    Host Configuration Protocol (DHCP) services"
+	},
+	{
+		"Port": "68",
+		"Name": "bootpc",
+		"Comment": "Bootstrap (BOOTP) client; also used by Dynamic Host Control \t    Protocol (DHCP) clients"
+	},
+	{
+		"Port": "69",
+		"Name": "tftp",
+		"Comment": "Trivial File Transfer Protocol (TFTP)"
+	},
+	{
+		"Port": "70",
+		"Name": "gopher",
+		"Comment": "Gopher Internet document search and retrieval"
+	},
+	{
+		"Port": "71",
+		"Name": "netrjs-1",
+		"Comment": "Remote Job Service"
+	},
+	{
+		"Port": "72",
+		"Name": "netrjs-2",
+		"Comment": "Remote Job Service"
+	},
+	{
+		"Port": "73",
+		"Name": "netrjs-3",
+		"Comment": "Remote Job Service"
+	},
+	{
+		"Port": "73",
+		"Name": "netrjs-4",
+		"Comment": "Remote Job Service"
+	},
+	{
+		"Port": "79",
+		"Name": "finger",
+		"Comment": "Finger service for user contact information"
+	},
+	{
+		"Port": "80",
+		"Name": "http",
+		"Comment": "HyperText Transfer Protocol (HTTP) for World Wide Web (WWW) services"
+	},
+	{
+		"Port": "88",
+		"Name": "kerberos",
+		"Comment": "Kerberos network authentication system"
+	},
+	{
+		"Port": "95",
+		"Name": "supdup",
+		"Comment": "Telnet protocol extension"
+	},
+	{
+		"Port": "101",
+		"Name": "hostname",
+		"Comment": "Hostname services on SRI-NIC machines"
+	},
+	{
+		"Port": "102/tcp",
+		"Name": "iso-tsap",
+		"Comment": "ISO Development Environment (ISODE) network applications"
+	},
+	{
+		"Port": "105",
+		"Name": "csnet-ns",
+		"Comment": "Mailbox nameserver; also used by CSO nameserver"
+	},
+	{
+		"Port": "107",
+		"Name": "rtelnet",
+		"Comment": "Remote Telnet"
+	},
+	{
+		"Port": "109",
+		"Name": "pop2",
+		"Comment": "Post Office Protocol version 2"
+	},
+	{
+		"Port": "110",
+		"Name": "pop3",
+		"Comment": "Post Office Protocol version 3"
+	},
+	{
+		"Port": "111",
+		"Name": "sunrpc",
+		"Comment": "Remote Procedure Call (RPC) Protocol for remote command \t    execution, used by Network Filesystem (NFS)"
+	},
+	{
+		"Port": "113",
+		"Name": "auth",
+		"Comment": "Authentication and Ident protocols"
+	},
+	{
+		"Port": "115",
+		"Name": "sftp",
+		"Comment": "Secure File Transfer Protocol (SFTP) services"
+	},
+	{
+		"Port": "117",
+		"Name": "uucp-path",
+		"Comment": "Unix-to-Unix Copy Protocol (UUCP) Path services"
+	},
+	{
+		"Port": "119",
+		"Name": "nntp",
+		"Comment": "Network News Transfer Protocol (NNTP) for the USENET \t    discussion system"
+	},
+	{
+		"Port": "123",
+		"Name": "ntp",
+		"Comment": "Network Time Protocol (NTP)"
+	},
+	{
+		"Port": "137",
+		"Name": "netbios-ns",
+		"Comment": "NETBIOS Name Service used in Red Hat Enterprise Linux by Samba"
+	},
+	{
+		"Port": "138",
+		"Name": "netbios-dgm",
+		"Comment": "NETBIOS Datagram Service used in Red Hat Enterprise Linux by Samba"
+	},
+	{
+		"Port": "139",
+		"Name": "netbios-ssn",
+		"Comment": "NETBIOS Session Service used in Red Hat Enterprise Linux by Samba"
+	},
+	{
+		"Port": "143",
+		"Name": "imap",
+		"Comment": "Internet Message Access Protocol (IMAP)"
+	},
+	{
+		"Port": "161",
+		"Name": "snmp",
+		"Comment": "Simple Network Management Protocol (SNMP)"
+	},
+	{
+		"Port": "162",
+		"Name": "snmptrap",
+		"Comment": "Traps for SNMP"
+	},
+	{
+		"Port": "163",
+		"Name": "cmip-man",
+		"Comment": "Common Management Information Protocol (CMIP)"
+	},
+	{
+		"Port": "164",
+		"Name": "cmip-agent",
+		"Comment": "Common Management Information Protocol (CMIP)"
+	},
+	{
+		"Port": "174",
+		"Name": "mailq",
+		"Comment": "MAILQ email transport queue"
+	},
+	{
+		"Port": "177",
+		"Name": "xdmcp",
+		"Comment": "X Display Manager Control Protocol (XDMCP)"
+	},
+	{
+		"Port": "178",
+		"Name": "nextstep",
+		"Comment": "NeXTStep window server"
+	},
+	{
+		"Port": "179",
+		"Name": "bgp",
+		"Comment": "Border Gateway Protocol"
+	},
+	{
+		"Port": "191",
+		"Name": "prospero",
+		"Comment": "Prospero distributed filesystem services"
+	},
+	{
+		"Port": "194",
+		"Name": "irc",
+		"Comment": "Internet Relay Chat (IRC)"
+	},
+	{
+		"Port": "199",
+		"Name": "smux",
+		"Comment": "SNMP UNIX Multiplexer"
+	},
+	{
+		"Port": "201",
+		"Name": "at-rtmp",
+		"Comment": "AppleTalk routing"
+	},
+	{
+		"Port": "202",
+		"Name": "at-nbp",
+		"Comment": "AppleTalk name binding"
+	},
+	{
+		"Port": "204",
+		"Name": "at-echo",
+		"Comment": "AppleTalk echo"
+	},
+	{
+		"Port": "206",
+		"Name": "at-zis",
+		"Comment": "AppleTalk zone information"
+	},
+	{
+		"Port": "209",
+		"Name": "qmtp",
+		"Comment": "Quick Mail Transfer Protocol (QMTP)"
+	},
+	{
+		"Port": "210",
+		"Name": "z39.50",
+		"Comment": "NISO Z39.50 database"
+	},
+	{
+		"Port": "213",
+		"Name": "ipx",
+		"Comment": "Internetwork Packet Exchange (IPX), a datagram protocol commonly \t    used in Novell Netware environments"
+	},
+	{
+		"Port": "220",
+		"Name": "imap3",
+		"Comment": "Internet Message Access Protocol version 3"
+	},
+	{
+		"Port": "245",
+		"Name": "link",
+		"Comment": "LINK / 3-DNS iQuery service"
+	},
+	{
+		"Port": "347",
+		"Name": "fatserv",
+		"Comment": "FATMEN file and tape management server"
+	},
+	{
+		"Port": "363",
+		"Name": "rsvp_tunnel",
+		"Comment": "RSVP Tunnel"
+	},
+	{
+		"Port": "369",
+		"Name": "rpc2portmap",
+		"Comment": "Coda file system portmapper"
+	},
+	{
+		"Port": "370",
+		"Name": "codaauth2",
+		"Comment": "Coda file system authentication services"
+	},
+	{
+		"Port": "372",
+		"Name": "ulistproc",
+		"Comment": "UNIX LISTSERV"
+	},
+	{
+		"Port": "389",
+		"Name": "ldap",
+		"Comment": "Lightweight Directory Access Protocol (LDAP)"
+	},
+	{
+		"Port": "427",
+		"Name": "svrloc",
+		"Comment": "Service Location Protocol (SLP)"
+	},
+	{
+		"Port": "434",
+		"Name": "mobileip-agent",
+		"Comment": "Mobile Internet Protocol (IP) agent"
+	},
+	{
+		"Port": "435",
+		"Name": "mobilip-mn",
+		"Comment": "Mobile Internet Protocol (IP) manager"
+	},
+	{
+		"Port": "443",
+		"Name": "https",
+		"Comment": "Secure Hypertext Transfer Protocol (HTTP)"
+	},
+	{
+		"Port": "444",
+		"Name": "snpp",
+		"Comment": "Simple Network Paging Protocol"
+	},
+	{
+		"Port": "445",
+		"Name": "microsoft-ds",
+		"Comment": "Server Message Block (SMB) over TCP/IP"
+	},
+	{
+		"Port": "464",
+		"Name": "kpasswd",
+		"Comment": "Kerberos password and key changing services"
+	},
+	{
+		"Port": "468",
+		"Name": "photuris",
+		"Comment": "Photuris session key management protocol"
+	},
+	{
+		"Port": "487",
+		"Name": "saft",
+		"Comment": "Simple Asynchronous File Transfer (SAFT) protocol"
+	},
+	{
+		"Port": "488",
+		"Name": "gss-http",
+		"Comment": "Generic Security Services (GSS) for HTTP"
+	},
+	{
+		"Port": "496",
+		"Name": "pim-rp-disc",
+		"Comment": "Rendezvous Point Discovery (RP-DISC) for Protocol Independent \t    Multicast (PIM) services"
+	},
+	{
+		"Port": "500",
+		"Name": "isakmp",
+		"Comment": "Internet Security Association and Key Management Protocol (ISAKMP)"
+	},
+	{
+		"Port": "535",
+		"Name": "iiop",
+		"Comment": "Internet Inter-Orb Protocol (IIOP)"
+	},
+	{
+		"Port": "538",
+		"Name": "gdomap",
+		"Comment": "GNUstep Distributed Objects Mapper (GDOMAP)"
+	},
+	{
+		"Port": "546",
+		"Name": "dhcpv6-client",
+		"Comment": "Dynamic Host Configuration Protocol (DHCP) version 6 client"
+	},
+	{
+		"Port": "547",
+		"Name": "dhcpv6-server",
+		"Comment": "Dynamic Host Configuration Protocol (DHCP) version 6 Service"
+	},
+	{
+		"Port": "554",
+		"Name": "rtsp",
+		"Comment": "Real Time Stream Control Protocol (RTSP)"
+	},
+	{
+		"Port": "563",
+		"Name": "nntps",
+		"Comment": "Network News Transport Protocol over Secure Sockets Layer (NNTPS)"
+	},
+	{
+		"Port": "565",
+		"Name": "whoami",
+		"Comment": "whoami user ID listing"
+	},
+	{
+		"Port": "587",
+		"Name": "submission",
+		"Comment": "Mail Message Submission Agent (MSA)"
+	},
+	{
+		"Port": "610",
+		"Name": "npmp-local",
+		"Comment": "Network Peripheral Management Protocol (NPMP) local / \t    Distributed Queueing System (DQS)"
+	},
+	{
+		"Port": "611",
+		"Name": "npmp-gui",
+		"Comment": "Network Peripheral Management Protocol (NPMP) GUI / \t    Distributed Queueing System (DQS)"
+	},
+	{
+		"Port": "612",
+		"Name": "hmmp-ind",
+		"Comment": "HyperMedia Management Protocol (HMMP) Indication / DQS"
+	},
+	{
+		"Port": "631",
+		"Name": "ipp",
+		"Comment": "Internet Printing Protocol (IPP)"
+	},
+	{
+		"Port": "636",
+		"Name": "ldaps",
+		"Comment": "Lightweight Directory Access Protocol over Secure Sockets \t    Layer (LDAPS)"
+	},
+	{
+		"Port": "674",
+		"Name": "acap",
+		"Comment": "Application Configuration Access Protocol (ACAP)"
+	},
+	{
+		"Port": "694",
+		"Name": "ha-cluster",
+		"Comment": "Heartbeat services for High-Availability Clusters"
+	},
+	{
+		"Port": "749",
+		"Name": "kerberos-adm",
+		"Comment": "Kerberos version 5 (v5) 'kadmin' database administration"
+	},
+	{
+		"Port": "750",
+		"Name": "kerberos-iv",
+		"Comment": "Kerberos version 4 (v4) services"
+	},
+	{
+		"Port": "765",
+		"Name": "webster",
+		"Comment": "Network Dictionary"
+	},
+	{
+		"Port": "767",
+		"Name": "phonebook",
+		"Comment": "Network Phonebook"
+	},
+	{
+		"Port": "873",
+		"Name": "rsync",
+		"Comment": "rsync file transfer services"
+	},
+	{
+		"Port": "992",
+		"Name": "telnets",
+		"Comment": "Telnet over Secure Sockets Layer (TelnetS)"
+	},
+	{
+		"Port": "993",
+		"Name": "imaps",
+		"Comment": "Internet Message Access Protocol over Secure Sockets Layer (IMAPS)"
+	},
+	{
+		"Port": "994",
+		"Name": "ircs",
+		"Comment": "Internet Relay Chat over Secure Sockets Layer (IRCS)"
+	},
+	{
+		"Port": "995",
+		"Name": "pop3s",
+		"Comment": "Post Office Protocol version 3 over Secure Sockets Layer (POP3S)"
+	}
+]
